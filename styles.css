@@ -1,0 +1,17 @@
+* {
+margin: 0%;
+padding: 0%;
+}
+
+.page-wrapper {
+    background-color:rgba(185, 208, 232, 1);
+}
+
+
+header {
+    
+}
+
+li {
+    display: inline;
+}
