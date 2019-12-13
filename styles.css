@@ -18,8 +18,7 @@ nav {
     width: 100%;
     position: fixed;
     background-color: rgba(237, 219, 226, 1);
-    padding: 10px;
-    
+    padding: 10px; 
 }
 
 .home {
@@ -44,6 +43,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
 .container {
     display: flex;
     width: 100%;
@@ -55,6 +55,8 @@ nav a:hover {
     background-size: 100%;
     margin: 60px 0px 10px 0px;
 }
+
+
 
 .name {
     padding: 40px;
@@ -123,7 +125,16 @@ h2 {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     color: rgba(88, 33, 57, 1);
+    
+}
 
+.links {
+    text-align: center;
+}
+
+i {
+    color: rgba(47, 33, 34, 1);
+    padding: 10px;
 }
 
 footer {
@@ -187,10 +198,13 @@ footer {
     color:rgba(47, 33, 34, 1);
 }
 
+
+}
 .timeline-item p {
     padding: 10px;
     border-top: solid rgba(194, 131, 154, 1);
 }
+
 .timeline-item h2 {
     padding: 10px 30px 10px 30px;
 }
@@ -202,10 +216,12 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+    
 }
 
 .blog h1 {
     margin: 0px 10px 0px 20px;
+    
 }
 
 .blog-content {
@@ -213,6 +229,7 @@ footer {
     margin: 10px;
     padding: 10px;
     height: 250px;
+    
 }
 
 .blog-content img {
@@ -234,6 +251,7 @@ footer {
     margin: 10px;
     padding: 10px;
     height: 250px;
+    
 }
 
 .blog-content-2 img {
@@ -289,35 +307,92 @@ footer {
 }
 
 
-@media only screen and (max-width: 500px) {
-    .grid-box {
-      grid-template-columns: 100%;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
-    .grid-item {
-      width: 88%;
-      min-height: 150px;
-    }
-}
-
 .contact-form {
-    margin: 120px;
+    margin: 60px;
     padding: 30px 0 30px 0;
     font-family: 'Poppins', sans-serif;
     color:rgba(47, 33, 34, 1);
-    font-size: 160%;
+    font-size: 150%;
     text-align: center;
     background-image: url("sakura4.jpg");
 }
 
+.container h2 {
+    padding: 20px 10px 10px 10px;
+}
+
 input {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  align-self: center;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    align-self: center;
 }
 
 input[type=message] {
-    height: 150px;
+    height: 130px;
+}
+
+@media only screen and (max-width: 500px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 120px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button1,
+    .button2,
+    .button3 {
+        width: 80%;
+        min-height: 200px;
+    }
+
+    .container-2 {
+        flex-direction: column;
+        margin-top: 120px;
+        height: auto;
+    }
+
+    .timeline {
+        flex-direction: column;
+    }
+
+    .timeline-item {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .blog {
+        margin-top: 120px;
+    }
+
+    .blog-content,
+    .blog-content-2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .grid-box {
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .grid-item {
+        width: 88%;
+        min-height: 150px;
+    }
+
+    .contact-form {
+        margin-top: 120px;
+    }
+
+
 }
