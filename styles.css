@@ -47,7 +47,7 @@ nav a:hover {
 .container {
     display: flex;
     width: 100%;
-    height: 350px;
+    height: 320px;
     justify-content: flex-end;
     align-items: flex-end;
     background-image: url("sakura.jpg");
@@ -57,7 +57,8 @@ nav a:hover {
 }
 
 .name {
-    padding: 40px;  
+    padding: 40px;
+    text-align: right;
 }
 
 h1 {
@@ -133,11 +134,13 @@ footer {
 
 .container-2 {
     display: flex;
-    width: 99%;
-    height: auto;
+    width: 100%;
+    height: 320px;
     justify-content: space-around;
     align-items: center;
-    margin: 80px 30px 30px 20px;
+    margin: 60px 0px 30px 0px;
+    background-image: url("sakura4.jpg");
+    background-size: 100%;
 }
 
 .container-2 img {
@@ -149,9 +152,22 @@ footer {
 
 .container-2 .text {
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     font-family: 'Poppins', sans-serif;
     color:rgba(47, 33, 34, 1);
+}
+
+.resume {
+    background-color: rgba(194, 131, 154, 1);
+    margin: 10px 0 10px 0;
+}
+
+.resume a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(88, 33, 57, 1);
+    font-size: 170%;
+    padding: 5px;
 }
 
 .timeline {
@@ -189,7 +205,7 @@ footer {
 }
 
 .blog h1 {
-    margin: 10px 10px 10px 20px;
+    margin: 0px 10px 0px 20px;
 }
 
 .blog-content {
@@ -201,7 +217,7 @@ footer {
 
 .blog-content img {
     width: 250px;
-    border: solid rgba(194, 131, 154, 1);
+    border: solid rgba(244, 192, 214, 1);
 }
 
 .blog-content .text {
@@ -222,7 +238,7 @@ footer {
 
 .blog-content-2 img {
     width: 250px;
-    border: solid rgba(194, 131, 154, 1);
+    border: solid rgba(244, 192, 214, 1);
 }
 
 .blog-content-2 .text {
@@ -245,8 +261,9 @@ footer {
     text-align: right;
 }
 
-.projects {
+.projects h1 {
     margin: 60px 10px 10px 10px;
+    padding: 10px;
 }
 
 .grid-box {
@@ -267,7 +284,8 @@ footer {
 
 .grid-item img {
     width: 98%;
-    padding: 5px;
+    padding: px;
+    border: solid 1px rgba(194, 131, 154, 1);
 }
 
 
@@ -282,3 +300,24 @@ footer {
     }
 }
 
+.contact-form {
+    margin: 120px;
+    padding: 30px 0 30px 0;
+    font-family: 'Poppins', sans-serif;
+    color:rgba(47, 33, 34, 1);
+    font-size: 160%;
+    text-align: center;
+    background-image: url("sakura4.jpg");
+}
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  align-self: center;
+}
+
+input[type=message] {
+    height: 150px;
+}
