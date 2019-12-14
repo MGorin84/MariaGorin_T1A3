@@ -10,6 +10,7 @@
   justify-content: center;
   background-color: rgba(237, 219, 226, 1);
   height: auto;
+  font-size: 110%;
 }
 
 nav {
@@ -198,7 +199,7 @@ footer {
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  height: 150px;
+  height: 120px;
   font-family: "Poppins", sans-serif;
   color: rgba(47, 33, 34, 1);
 }
@@ -208,8 +209,13 @@ footer {
   border-top: solid 1px rgba(194, 131, 154, 1);
 }
 
+.timeline-item p span {
+  font-size: 120%;
+  font-weight: bold;
+}
+
 .timeline-item h2 {
-  padding: 10px 30px 10px 30px;
+  padding: 10px 40px 10px 20px;
 }
 
 .blog {
