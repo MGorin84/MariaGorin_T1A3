@@ -138,8 +138,8 @@ i {
 }
 
 i:hover {
-    transition: all 0.5s ease-in-out;
-    transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.2);
 }
 
 footer {
@@ -199,7 +199,7 @@ footer {
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  height: 120px;
+  height: 130px;
   font-family: "Poppins", sans-serif;
   color: rgba(47, 33, 34, 1);
 }
@@ -210,7 +210,7 @@ footer {
 }
 
 .timeline-item p span {
-  font-size: 120%;
+  font-size: 130%;
   font-weight: bold;
 }
 
