@@ -317,7 +317,7 @@ footer {
 /* Contact form */
 .contact-form {
   margin: 60px;
-  padding: 30px 0 30px 0
+  padding: 30px 0 30px 0;
   color: rgba(47, 33, 34, 1);
   font-size: 150%;
   text-align: center;
@@ -336,7 +336,7 @@ input {
   align-self: center;
 }
 
-input[type="message"] {
+input[type="text"] {
   height: 130px;
 }
 

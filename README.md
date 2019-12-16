@@ -66,7 +66,7 @@ And this was for the About me page:
 
 This Project is written on HTML and CSS. It contains five .html files and one .css stylesheet.
 
-
+The styles are written in one file divided by sections with comments for easy navigation through it. Media query is written at the end of the file. 
 
 I used w3 validator to validate HTML code and made corrections of errors followed by the results it gave me.
 I repeated the validation process following the correction of errors and it came up with no further errors or warnings.
