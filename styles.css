@@ -171,7 +171,7 @@ footer {
 
 .container-2 .text {
   padding: 10px;
-  margin: 10px;
+  margin: 30px 10px 30px 10px;
   font-family: "Poppins", sans-serif;
   color: rgba(47, 33, 34, 1);
   background-color: rgba(237, 219, 226, 0.5);
@@ -179,15 +179,14 @@ footer {
 
 .resume {
   background-color: rgba(194, 131, 154, 1);
-  margin: 10px 0 10px 0;
-}
-
-.resume a {
+  margin: 30px 0 0 0;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   color: rgba(88, 33, 57, 1);
-  font-size: 150%;
-  padding: 5px;
+  font-size: 130%;
+  padding: 0 5px 0 5px;
+  border-radius: 10%;
+  border: outset 2px rgb(221,221,221);
 }
 
 .timeline {
