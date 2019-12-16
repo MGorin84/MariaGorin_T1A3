@@ -6,13 +6,15 @@ This is a link to my website..
 
 This is a link to my my GitHub repository..
 
-### Purpose
+### Purpose an Target Audience
 
 I created this Website as an assignment for my ongoing study to become a web developer. All the code related to this website was written by me based on my design.
 
 The main purpose of this project was to create a personal portfolio site to demonstrate my HTML/CSS skills and abilities and to tell a little bit about myself and my future goals.
 
-### Functionaliti/Features:
+In the future this portfolio can be used as a virtual resume for potential employers and business partners.
+
+### Functionaliti/Features
 
 My portfolio contains 5 pages:
 - Home
@@ -50,7 +52,30 @@ These are a couple of screenshots I took in a progress
 
 These are a couple of wireframes I drew for the project.
 
+This one is for the Home page:
+
 ![Home page - wireframe](wireframe-home.png)
 
+And this was for the About me page:
+
 ![About me page - wireframe](wireframe-aboutme.png)
+
+### The Tech
+
+#### The code
+
+This Project is written on HTML and CSS. It contains five .html files and one .css stylesheet.
+
+
+
+I used w3 validator to validate HTML code and made corrections of errors followed by the results it gave me.
+I repeated the validation process following the correction of errors and it came up with no further errors or warnings.
+
+#### Deployment
+
+Netlify is used to make this project live.
+
+#### Subresource Integrity
+
+
 
