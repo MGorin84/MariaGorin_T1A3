@@ -2,9 +2,9 @@
 
 My name is Maria and this is my first HTML/CSS project - My Portfolio.
 
-This is a link to my website.. 
+This is a link to my [website]()
 
-This is a link to my my GitHub repository..
+This is a link to my my [GitHub repository](https://github.com/MGorin84/MariaGorin_T1A3)
 
 ### Purpose an Target Audience
 
@@ -71,11 +71,15 @@ The styles are written in one file divided by sections with comments for easy na
 I used w3 validator to validate HTML code and made corrections of errors followed by the results it gave me.
 I repeated the validation process following the correction of errors and it came up with no further errors or warnings.
 
+#### Version control
+
+GitHub repository was used for source control. I created 2 branches in the process to experiment with different designs but got back to the original idea. 
+
 #### Deployment
 
-Netlify is used to make this project live.
+Netlify was used to make this project live.
 
 #### Subresource Integrity
 
-
+SRI was implemented for code verification.
 
