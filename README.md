@@ -2,7 +2,7 @@
 
 My name is Maria and this is my first HTML/CSS project - My Portfolio.
 
-This is a link to my [website]()
+This is a link to my [website](https://kind-liskov-c115b9.netlify.com/)
 
 This is a link to my my [GitHub repository](https://github.com/MGorin84/MariaGorin_T1A3)
 
