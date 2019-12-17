@@ -75,6 +75,10 @@ I repeated the validation process following the correction of errors and it came
 
 GitHub repository was used for source control. I created 2 branches in the process to experiment with different designs but got back to the original idea. 
 
+![Dark theme](darktheme.png)
+
+![Different font](diffont.png)
+
 #### Deployment
 
 Netlify was used to make this project live.
@@ -82,4 +86,3 @@ Netlify was used to make this project live.
 #### Subresource Integrity
 
 SRI was implemented for code verification.
-
