@@ -71,6 +71,18 @@ The styles are written in one file divided by sections with comments for easy na
 I used w3 validator to validate HTML code and made corrections of errors followed by the results it gave me.
 I repeated the validation process following the correction of errors and it came up with no further errors or warnings.
 
+#### Components
+
+- Navigation bar on top is made in fixed position so it is always visible and clear.
+
+- Links on home page are animated and made look like buttons.
+
+- Portfolio page is written using css-grid.
+
+- Blog posts are equipped with a scrollbar.
+
+- Contact me form is linked to my e-mail using formspree
+
 #### Version control
 
 GitHub repository was used for source control. I created 2 branches in the process to experiment with different designs but got back to the original idea. 
