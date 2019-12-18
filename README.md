@@ -6,7 +6,7 @@ This is a link to my [website](https://kind-liskov-c115b9.netlify.com/)
 
 This is a link to my my [GitHub repository](https://github.com/MGorin84/MariaGorin_T1A3)
 
-### Purpose an Target Audience
+### Purpose and Target Audience
 
 I created this Website as an assignment for my ongoing study to become a web developer. All the code related to this website was written by me based on my design.
 
@@ -14,7 +14,7 @@ The main purpose of this project was to create a personal portfolio site to demo
 
 In the future this portfolio can be used as a virtual resume for potential employers and business partners.
 
-### Functionaliti/Features
+### Functionality/Features
 
 My portfolio contains 5 pages:
 - Home
@@ -91,10 +91,10 @@ GitHub repository was used for source control. I created 2 branches in the proce
 
 ![Different font](diffont.png)
 
-#### Deployment
+### Deployment
 
 Netlify was used to make this project live.
 
-#### Subresource Integrity
+### Subresource Integrity
 
 SRI was implemented for code verification.
