@@ -33,7 +33,7 @@ All of the pages also contain links to my professional social media accounts Git
 
 "About me" page has a quick introduction and a timeline. There is also a link to my resume (which is a mock-up resume at this point)
 
-"Blog" page has 5 blog items with images. I used flex-box for this page and made it responsive to mobile-view by changing flex-direction. Each item is set a maximum height and has a scroll bar to fit larger content without changing the look of the page. 
+"Blog" page has 5 blog items with images. I used flex-box for this page and made it responsive to mobile-view by changing flex-direction. Each item is set a maximum height and has a scroll bar to fit larger content without changing the look of the page. I also used left scroll bar for every second blog-item mainly to make it look the way I planned which was surprisingly challenging to do. 
 
 "Portfolio" page is made to show my current and future projects. I used grid to organize content of the page and made it responsive by changing the widths of the columns in a mobile view.
 
